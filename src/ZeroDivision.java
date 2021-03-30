@@ -6,6 +6,7 @@ public class ZeroDivision {
         float y = 0;
 
         if (y == 0) {
+            //Informative message about division with 0
             System.out.println("The divider is zero, division cannot be done!");
         } else {
             System.out.println("Division result: " + x / y);
