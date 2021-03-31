@@ -1,12 +1,20 @@
+import java.util.Scanner;
+
 public class FactorialCalculation {
 
     public static void main(String[] args) {
 
-        int n = 7;
+        System.out.println("Please enter a number: ");
+        //Read input from console
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        //convert string to integer
+        int n = Integer.parseInt(s);
+
+//        int n = 7;
         int y;
         long factorialFromApproach1 = 1;
         long factorialFromApproach2 = 1;
-
 
         if (n > 0) {
 

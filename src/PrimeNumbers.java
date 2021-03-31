@@ -2,6 +2,8 @@ public class PrimeNumbers {
 
     public static void main(String[] args) {
 
+        System.out.println("Prime numbers between 2-100 are:");
+
         //loop for numbers between 2-100
         for (int i = 2; i <= 100; i++) {
 
@@ -9,7 +11,7 @@ public class PrimeNumbers {
             boolean isPrime = true;
 
             //loop for numbers between 2-i
-            while (y < i && isPrime == true) {
+            while (y < i && isPrime) {
 
                 //check if a number other than 1 and itself is a factor
                 if (i % y == 0) {

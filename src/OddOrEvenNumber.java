@@ -1,7 +1,17 @@
+import java.util.Scanner;
+
 public class OddOrEvenNumber {
 
     public static void main(String[] args) {
-        int a = -5;
+
+        //int a = -5;
+
+        System.out.println("Please enter an integer: ");
+        //Read input from console
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        //convert string to integer
+        int a = Integer.parseInt(s);
 
         //Condition for even number like 0, 2, 4, 6, 8, ..
         if (a % 2 == 0) {
