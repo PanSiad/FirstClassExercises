@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HarmonicSeries {
 
-    public static void main(String[] args) {
+    public static void main() {
 
 //        long n = 144;
         double sum = 0;

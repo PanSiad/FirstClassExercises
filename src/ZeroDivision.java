@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ZeroDivision {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         System.out.println("Please enter a number: ");
         //Read input from console

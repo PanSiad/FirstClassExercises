@@ -1,6 +1,6 @@
 public class PrimeNumbers {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         System.out.println("Prime numbers between 2-100 are:");
 
