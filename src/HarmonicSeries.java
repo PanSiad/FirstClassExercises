@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HarmonicSeries {
 
-    public static void main() {
+    public static void executeMethod() {
 
 //        long n = 144;
         double sum = 0;
@@ -14,8 +14,8 @@ public class HarmonicSeries {
         //convert string to integer
         int n = Integer.parseInt(s);
 
-        for (double i = 1; i <= n; i++) {
-            sum += 1/i;
+        for (int i = 1; i <= n; i++) {
+            sum += (double) 1/i;
         }
 
         System.out.println("For the given number " + n + ", the sum of the harmonic series up to n is: " + sum);

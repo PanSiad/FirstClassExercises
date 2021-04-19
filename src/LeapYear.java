@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LeapYear {
 
-    public static void main() {
+    public static void executeMethod() {
 
         //years sample
         int[] years = {1600, 1800, 2000, 2020, 2024, 2017, 1821, 1900};

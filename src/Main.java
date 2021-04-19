@@ -31,25 +31,25 @@ public class Main {
 
         switch (n) {
             case 1:
-                OddOrEvenNumber.main();
+                OddOrEvenNumber.executeMethod();
                 break;
             case 2:
-                LeapYear.main();
+                LeapYear.executeMethod();
                 break;
             case 3:
-                PrimeNumbers.main();
+                PrimeNumbers.executeMethod();
                 break;
             case 4:
-                RepresentationExercise.main();
+                RepresentationExercise.executeMethod();
                 break;
             case 5:
-                HarmonicSeries.main();
+                HarmonicSeries.executeMethod();
                 break;
             case 6:
-                FactorialCalculation.main();
+                FactorialCalculation.executeMethod();
                 break;
             case 7:
-                ZeroDivision.main();
+                ZeroDivision.executeMethod();
                 break;
             default:
                 //While loop above ensures no default case is possible

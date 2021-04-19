@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RepresentationExercise {
 
-    public static void main() {
+    public static void executeMethod() {
 
 //        int n, k;
         int division, modulo;

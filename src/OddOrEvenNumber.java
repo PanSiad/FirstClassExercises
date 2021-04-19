@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OddOrEvenNumber {
 
-    public static void main() {
+    public static void executeMethod() {
 
         //int a = -5;
 
